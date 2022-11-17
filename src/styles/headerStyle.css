@@ -1,0 +1,46 @@
+.headerContain {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.headerMenu{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    
+}
+.headerMenulogotxt{
+    font-family: 'Poppins', sans-serif;
+}
+.headerMenuitem{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    text-decoration: none;
+    color: #fe5454;
+    cursor: pointer;
+}
+.headerMenuitem:active  {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+.headerMenuitemRound{
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #fe5454;
+    padding: 10px;
+    cursor: pointer;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}

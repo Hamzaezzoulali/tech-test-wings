@@ -1,0 +1,62 @@
+.loginCard {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    margin: 50px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+.divEmail {
+    display: flex;
+    flex-direction: column;
+}
+.divPassword {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.loginTitle{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.loginButton {
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #fe5454;
+    border-style: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+.logintitleinput{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+}
+.loginInputStyle{
+    width: 200px;
+    display: flex;
+    border-style: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 13px;
+    background-color: #F7F7F7;
+    border: #E6EDF0 1px solid;
+}
+.ErrorMsg{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: #fe5454;
+    font-weight: normal;
+}

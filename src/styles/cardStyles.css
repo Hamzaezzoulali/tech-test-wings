@@ -1,0 +1,21 @@
+.cardStyle {
+    flex: 1 1 25%;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-left: 0;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+.cardTitle{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.cardcontent{
+    font-size: 15px;
+}
