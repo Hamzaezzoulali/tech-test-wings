@@ -56,6 +56,7 @@ export default function Posts() {
             {isError&& 
                 <h2 className='titleErrorStyle'>Error API !</h2> 
             }
+
       <ToastContainer />
       </Container>
     </>
