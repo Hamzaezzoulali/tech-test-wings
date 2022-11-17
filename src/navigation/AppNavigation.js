@@ -23,7 +23,7 @@ export default function AppNavigation() {
                     <Route path="/posts" element={<ProtectedPostsRoute />} >
                         <Route path="/posts" element={<Posts />} />    
                     </Route>
-                    <Route path="*" element={<Login />} />
+                    <Route path="*" element={<Home />} />
             </Routes>
         </Auth.Provider>
         
